@@ -12,5 +12,7 @@ const inventory = [
 ];
 
 const result = inventory.find( fruit => fruit.name === 'cherries' );
+const result2 = inventory.find( f => f.quantity===0);
 
 console.log(result)
+console.log(result2)
